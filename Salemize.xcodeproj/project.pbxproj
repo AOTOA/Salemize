@@ -36,6 +36,7 @@
 		3D95E9021F6C186000391F99 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95E9011F6C186000391F99 /* OverlayView.swift */; };
 		3D95E9041F6C19C800391F99 /* SMSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95E9031F6C19C800391F99 /* SMSegment.swift */; };
 		7889CB8F7B9815A428575B43 /* Pods_Salemize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9D3DD2B38F2A942FFF8A71 /* Pods_Salemize.framework */; };
+		B9643B611F6C23B2006EA70A /* SMStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9643B601F6C23B2006EA70A /* SMStoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		3D95E9011F6C186000391F99 /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
 		3D95E9031F6C19C800391F99 /* SMSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSegment.swift; sourceTree = "<group>"; };
 		66D74136110231E807434ACB /* Pods-Salemize.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salemize.release.xcconfig"; path = "Pods/Target Support Files/Pods-Salemize/Pods-Salemize.release.xcconfig"; sourceTree = "<group>"; };
+		B9643B601F6C23B2006EA70A /* SMStoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SMStoreViewController.swift; path = Store/SMStoreViewController.swift; sourceTree = "<group>"; };
 		DB9D3DD2B38F2A942FFF8A71 /* Pods_Salemize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Salemize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F37A28BE1A5279844A283F2A /* Pods-Salemize.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salemize.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Salemize/Pods-Salemize.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -199,6 +201,7 @@
 		3D8B63F61F6AA32900C7F3E1 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				B9643B5F1F6C237D006EA70A /* Store */,
 				3D8B64291F6C106300C7F3E1 /* Map */,
 				3D8B63FA1F6AA37400C7F3E1 /* Main */,
 				3D8B63F71F6AA33900C7F3E1 /* Login */,
@@ -338,6 +341,14 @@
 				DB9D3DD2B38F2A942FFF8A71 /* Pods_Salemize.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9643B5F1F6C237D006EA70A /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				B9643B601F6C23B2006EA70A /* SMStoreViewController.swift */,
+			);
+			name = Store;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -544,6 +555,7 @@
 				3D8B64001F6AA41400C7F3E1 /* RootNavigationController.swift in Sources */,
 				3D8B641E1F6C065600C7F3E1 /* SMConfig.swift in Sources */,
 				3D8B63F91F6AA35D00C7F3E1 /* LoginViewController.swift in Sources */,
+				B9643B611F6C23B2006EA70A /* SMStoreViewController.swift in Sources */,
 				3D8B64201F6C066700C7F3E1 /* SMInstances.swift in Sources */,
 				3D8B64081F6BA1F000C7F3E1 /* SMCase.swift in Sources */,
 				3D95E9041F6C19C800391F99 /* SMSegment.swift in Sources */,
