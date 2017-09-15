@@ -6,4 +6,7 @@
 //  Copyright © 2017 Ebi :). All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+var AppDelegateInstance: AppDelegate!
+var Config: SMConfig = SMConfig()

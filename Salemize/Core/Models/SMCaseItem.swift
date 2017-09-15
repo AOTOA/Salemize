@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+class SMCaseItem {
+    var id: Int!
+    var odds: Float!
+}

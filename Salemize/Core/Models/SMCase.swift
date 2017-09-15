@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+class SMCase {
+    var id: Int!
+    var case_id: Int!
+    var items: [SMCaseItem]!
+}

@@ -5,3 +5,11 @@
   Created by Ebrahim Tahernejad on 9/15/17.
   Copyright © 2017 Ebi :). All rights reserved.
 */
+
+"SM.Main.Buttons.Store" = "فروشگاه";
+"SM.Main.Buttons.Help" = "راهنما";
+"SM.Main.Buttons.Profile" = "پروفایل";
+
+"SM.Map.Types.Distance" = "مسافت";
+"SM.Map.Types.Time" = "زمان";
+"SM.Map.Types.Callories" = "کالری";

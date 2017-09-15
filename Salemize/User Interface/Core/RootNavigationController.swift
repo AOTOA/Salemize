@@ -7,9 +7,23 @@
 //
 
 import UIKit
+import GoogleMaps
 
 class RootNavigationController: UINavigationController {
 
+    init(){
+        super.init(rootViewController: MainViewController())
+        self.isNavigationBarHidden = true
+    }
+    
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

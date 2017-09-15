@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ASFont {
+class SMFont {
     
     static func optimizeSize(_ size: CGFloat) -> CGFloat {
         /*let screenSize: CGFloat = UIScreen.main.bounds.size.width + UIScreen.main.bounds.size.height
@@ -24,8 +24,7 @@ class ASFont {
     }
     
     static func fontName(_ isSecondary: Bool) -> String {
-        return isSecondary ? "iranyekan" : "IRANSansMobile"
-        return "Helvetica-Neue"
+        return "IRANSansMobile"
     }
     
     static func bold(_ size: CGFloat, isSecondary: Bool = false) -> UIFont? {

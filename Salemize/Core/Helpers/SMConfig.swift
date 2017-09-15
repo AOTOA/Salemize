@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+class SMConfig {
+    var language: String = "fa"
+}
