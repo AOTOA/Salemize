@@ -1,0 +1,2 @@
+# Salemize
+setup: `pod install`
