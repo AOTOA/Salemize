@@ -14,6 +14,12 @@ enum SMColorHex: String {
     case black = "#000000"
     case selectedSegment = "#2D333D"
     case white = "#ffffff"
+    case overlayTitle = "#5A5A5A"
+    case startActionButton = "#1A73CA"
+    case separatorColor = "#4C4F73"
+    case gray = "#A2A2A2"
+    case endTaskColor = "#999999"
+    case storeSeparator = "#F1F1F1"
 }
 
 func SMColor(name: SMColorHex, alpha: CGFloat = 1.0) -> UIColor {

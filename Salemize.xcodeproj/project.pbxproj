@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D5880D01F6C5520000ABBA6 /* UIView+Shadow+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5880CF1F6C5520000ABBA6 /* UIView+Shadow+Border.swift */; };
+		3D5880D21F6C7AA8000ABBA6 /* IRANSansMobile(NoEn)_Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D5880D11F6C799B000ABBA6 /* IRANSansMobile(NoEn)_Medium.ttf */; };
+		3D84D6001F6C8C5500EB2AA5 /* SpinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D84D5FF1F6C8C5500EB2AA5 /* SpinViewController.swift */; };
 		3D8B63C81F6A9BC100C7F3E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B63C71F6A9BC100C7F3E1 /* AppDelegate.swift */; };
 		3D8B63CF1F6A9BC100C7F3E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8B63CE1F6A9BC100C7F3E1 /* Assets.xcassets */; };
 		3D8B63D21F6A9BC100C7F3E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8B63D01F6A9BC100C7F3E1 /* LaunchScreen.storyboard */; };
@@ -35,6 +38,8 @@
 		3D95E8FF1F6C160100391F99 /* APCustomBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95E8FE1F6C160100391F99 /* APCustomBlurView.swift */; };
 		3D95E9021F6C186000391F99 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95E9011F6C186000391F99 /* OverlayView.swift */; };
 		3D95E9041F6C19C800391F99 /* SMSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95E9031F6C19C800391F99 /* SMSegment.swift */; };
+		3D95E9081F6C4A0200391F99 /* StoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95E9061F6C4A0200391F99 /* StoreCell.swift */; };
+		3D95E9091F6C4A0200391F99 /* StoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D95E9071F6C4A0200391F99 /* StoreCell.xib */; };
 		7889CB8F7B9815A428575B43 /* Pods_Salemize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9D3DD2B38F2A942FFF8A71 /* Pods_Salemize.framework */; };
 		B9643B611F6C23B2006EA70A /* SMStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9643B601F6C23B2006EA70A /* SMStoreViewController.swift */; };
 /* End PBXBuildFile section */
@@ -57,6 +62,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D5880CF1F6C5520000ABBA6 /* UIView+Shadow+Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Shadow+Border.swift"; sourceTree = "<group>"; };
+		3D5880D11F6C799B000ABBA6 /* IRANSansMobile(NoEn)_Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRANSansMobile(NoEn)_Medium.ttf"; sourceTree = "<group>"; };
+		3D84D5FF1F6C8C5500EB2AA5 /* SpinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinViewController.swift; sourceTree = "<group>"; };
 		3D8B63C41F6A9BC100C7F3E1 /* Salemize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Salemize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8B63C71F6A9BC100C7F3E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D8B63CE1F6A9BC100C7F3E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -91,6 +99,8 @@
 		3D95E8FE1F6C160100391F99 /* APCustomBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APCustomBlurView.swift; sourceTree = "<group>"; };
 		3D95E9011F6C186000391F99 /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
 		3D95E9031F6C19C800391F99 /* SMSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSegment.swift; sourceTree = "<group>"; };
+		3D95E9061F6C4A0200391F99 /* StoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StoreCell.swift; path = Store/Items/StoreCell.swift; sourceTree = "<group>"; };
+		3D95E9071F6C4A0200391F99 /* StoreCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StoreCell.xib; path = Store/Items/StoreCell.xib; sourceTree = "<group>"; };
 		66D74136110231E807434ACB /* Pods-Salemize.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salemize.release.xcconfig"; path = "Pods/Target Support Files/Pods-Salemize/Pods-Salemize.release.xcconfig"; sourceTree = "<group>"; };
 		B9643B601F6C23B2006EA70A /* SMStoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SMStoreViewController.swift; path = Store/SMStoreViewController.swift; sourceTree = "<group>"; };
 		DB9D3DD2B38F2A942FFF8A71 /* Pods_Salemize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Salemize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +140,14 @@
 				66D74136110231E807434ACB /* Pods-Salemize.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		3D84D5FD1F6C8C2E00EB2AA5 /* Spin */ = {
+			isa = PBXGroup;
+			children = (
+				3D84D5FF1F6C8C5500EB2AA5 /* SpinViewController.swift */,
+			);
+			path = Spin;
 			sourceTree = "<group>";
 		};
 		3D8B63BB1F6A9BC100C7F3E1 = {
@@ -201,6 +219,7 @@
 		3D8B63F61F6AA32900C7F3E1 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				3D84D5FD1F6C8C2E00EB2AA5 /* Spin */,
 				B9643B5F1F6C237D006EA70A /* Store */,
 				3D8B64291F6C106300C7F3E1 /* Map */,
 				3D8B63FA1F6AA37400C7F3E1 /* Main */,
@@ -290,6 +309,7 @@
 				3D8B64151F6C040000C7F3E1 /* IRANSansMobile_Medium.ttf */,
 				3D8B64121F6C040000C7F3E1 /* IRANSansMobile_UltraLight.ttf */,
 				3D8B64131F6C040000C7F3E1 /* IRANSansMobile.ttf */,
+				3D5880D11F6C799B000ABBA6 /* IRANSansMobile(NoEn)_Medium.ttf */,
 			);
 			path = IRANSansMobile;
 			sourceTree = "<group>";
@@ -298,6 +318,7 @@
 			isa = PBXGroup;
 			children = (
 				3D8B64031F6ABBFC00C7F3E1 /* UIColor+Hex.swift */,
+				3D5880CF1F6C5520000ABBA6 /* UIView+Shadow+Border.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -335,6 +356,15 @@
 			path = Items;
 			sourceTree = "<group>";
 		};
+		3D95E9051F6C49D400391F99 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				3D95E9061F6C4A0200391F99 /* StoreCell.swift */,
+				3D95E9071F6C4A0200391F99 /* StoreCell.xib */,
+			);
+			name = Items;
+			sourceTree = "<group>";
+		};
 		68F0C96BEABDA3EE3F58EC39 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -346,6 +376,7 @@
 		B9643B5F1F6C237D006EA70A /* Store */ = {
 			isa = PBXGroup;
 			children = (
+				3D95E9051F6C49D400391F99 /* Items */,
 				B9643B601F6C23B2006EA70A /* SMStoreViewController.swift */,
 			);
 			name = Store;
@@ -462,7 +493,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D8B64021F6AA81100C7F3E1 /* GMStyle.json in Resources */,
+				3D95E9091F6C4A0200391F99 /* StoreCell.xib in Resources */,
 				3D8B64231F6C077B00C7F3E1 /* fa.strings in Resources */,
+				3D5880D21F6C7AA8000ABBA6 /* IRANSansMobile(NoEn)_Medium.ttf in Resources */,
 				3D8B64241F6C0AE900C7F3E1 /* IRANSansMobile_Bold.ttf in Resources */,
 				3D8B64251F6C0AE900C7F3E1 /* IRANSansMobile_Light.ttf in Resources */,
 				3D8B64261F6C0AE900C7F3E1 /* IRANSansMobile_Medium.ttf in Resources */,
@@ -533,9 +566,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Salemize/Pods-Salemize-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AHKNavigationController/AHKNavigationController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AHKNavigationController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -557,12 +593,15 @@
 				3D8B63F91F6AA35D00C7F3E1 /* LoginViewController.swift in Sources */,
 				B9643B611F6C23B2006EA70A /* SMStoreViewController.swift in Sources */,
 				3D8B64201F6C066700C7F3E1 /* SMInstances.swift in Sources */,
+				3D5880D01F6C5520000ABBA6 /* UIView+Shadow+Border.swift in Sources */,
 				3D8B64081F6BA1F000C7F3E1 /* SMCase.swift in Sources */,
 				3D95E9041F6C19C800391F99 /* SMSegment.swift in Sources */,
 				3D8B641C1F6C057A00C7F3E1 /* SMFunctions.swift in Sources */,
 				3D95E9021F6C186000391F99 /* OverlayView.swift in Sources */,
 				3D8B64101F6BFE6100C7F3E1 /* BottomSizerView.swift in Sources */,
+				3D95E9081F6C4A0200391F99 /* StoreCell.swift in Sources */,
 				3D8B64181F6C047500C7F3E1 /* SMFont.swift in Sources */,
+				3D84D6001F6C8C5500EB2AA5 /* SpinViewController.swift in Sources */,
 				3D8B63C81F6A9BC100C7F3E1 /* AppDelegate.swift in Sources */,
 				3D8B64041F6ABBFC00C7F3E1 /* UIColor+Hex.swift in Sources */,
 				3D8B640D1F6BF88000C7F3E1 /* SMColor.swift in Sources */,

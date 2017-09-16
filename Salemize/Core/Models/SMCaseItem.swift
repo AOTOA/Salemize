@@ -10,5 +10,12 @@ import Foundation
 
 class SMCaseItem {
     var id: Int!
+    var title: String!
+    var subtitle: String!
     var odds: Float!
+    init(title: String, subtitle: String, odds: Float) {
+        self.title = title
+        self.subtitle = subtitle
+        self.odds = odds
+    }
 }

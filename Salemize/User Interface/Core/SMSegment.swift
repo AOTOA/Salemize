@@ -10,7 +10,7 @@ import UIKit
 
 class SMSegment: UIView {
 
-    private var selectedIndex: Int = 0
+    var selectedIndex: Int = 0
     private var buttonsArray: Array<UIButton> = []
     var disabled: Bool = false
     

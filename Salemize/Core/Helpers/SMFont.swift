@@ -47,6 +47,11 @@ class SMFont {
         return UIFont(name: "\(fontName(isSecondary))-UltraLight", size: optimizeSize(size))
     }
     
+    static func noEn(_ size: CGFloat) -> UIFont? {
+        print(UIFont.fontNames(forFamilyName: "IRANSansMobile(NoEn)"))
+        return UIFont(name: "IRANSansMobileNoEn-Medium", size: size)
+    }
+    
 }
 
 

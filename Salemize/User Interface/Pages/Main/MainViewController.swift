@@ -20,6 +20,7 @@ class MainViewController: UIViewController {
     var storeButton: UIButton!
     var profileButton: UIButton!
     var buttonContainer: BottomSizerView!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -77,6 +78,8 @@ class MainViewController: UIViewController {
             NSAttributedStringKey.paragraphStyle: centerParagraph
             ]), for: .normal)
         storeButton.titleEdgeInsets.top = 3
+        storeButton.tag = 2
+        storeButton.addTarget(self, action: #selector(buttonActions(_:)), for: .touchUpInside)
         storeButton.sizeToFit()
         
         profileButton = UIButton()
@@ -97,8 +100,11 @@ class MainViewController: UIViewController {
     
     @objc func buttonActions(_ sender: UIButton) {
         switch sender.tag {
-        case 1: // Start Button
+        case 1: // Start
             self.navigationController?.setViewControllers([MapViewController()], animated: true)
+            break
+        case 2: // shop
+            self.navigationController?.pushViewController(SMStoreViewController(), animated: true)
             break
         default:
             break

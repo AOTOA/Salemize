@@ -8,8 +8,9 @@
 
 import UIKit
 import GoogleMaps
+import AHKNavigationController
 
-class RootNavigationController: UINavigationController {
+class RootNavigationController: AHKNavigationController {
 
     init(){
         super.init(rootViewController: MainViewController())

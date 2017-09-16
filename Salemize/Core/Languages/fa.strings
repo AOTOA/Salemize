@@ -13,3 +13,17 @@
 "SM.Map.Types.Distance" = "مسافت";
 "SM.Map.Types.Time" = "زمان";
 "SM.Map.Types.Callories" = "کالری";
+
+"SM.Map.Titles.Type" = "پیاده روی بر اساس";
+"SM.Map.Titles.Value" = "میزان";
+"SM.Map.Titles.Value.Unit" = "(واحد: متر)";
+"SM.Map.Titles.Submit" = "شروع پیاده روی";
+
+"SM.Map.Titles.EstimatedTime" = "زمان تخمینی برای اتمام مسیر";
+"SM.Map.Values.EstimatedTime" = "%@ دقیقه";
+"SM.Map.Titles.Distance" = "";
+"SM.Map.Titles.Coins" = "";
+"SM.Map.Titles.Treasure" = "";
+"SM.Map.Titles.EndTask" = "پایان پیاده روی";
+
+"SM.Store.Titles.Shop" = "فروشگاه";

@@ -28,6 +28,16 @@ func SMPersian(_ string: String) -> String {
     return result
 }
 
+func SMEnglish(_ string: String) -> String {
+    var result = String(format: string, locale: Locale(identifier: "en_US"))
+    let numbers: [String:String] = ["١": "1", "۲": "2", "۳": "3", "۴": "4", "۵": "5", "۶": "6", "۷": "7", "۸": "8", "۹": "9", "۰": "0"]
+    for number in numbers {
+        result = result.replacingOccurrences(of: number.key, with: number.value)
+    }
+    
+    return result
+}
+
 func SMPersian(_ int: Int) -> String {
     return SMPersian("\(int)")
 }
